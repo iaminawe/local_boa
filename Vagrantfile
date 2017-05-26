@@ -12,10 +12,10 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "Debian Wheezy 7.6 amd64 (Minimal + VirtualBox Guest Additions 4.3.16, 2014.09.28)"
+  config.vm.box = "debian/jessie64"
   # BOA needs a vanilla box.
   # We got this from http://www.vagrantbox.es. Other boxes may work fine also.
-  config.vm.box_url = "https://github.com/jose-lpa/packer-debian_7.6.0/releases/download/1.0/packer_virtualbox-iso_virtualbox.box"
+  # config.vm.box_url = "https://github.com/jose-lpa/packer-debian_7.6.0/releases/download/1.0/packer_virtualbox-iso_virtualbox.box"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
